@@ -1,0 +1,370 @@
+{
+  "examples": [
+    {
+      "features": {
+        "hsk_max": 1.0,
+        "hsk_mean": 1.0,
+        "hsk_count_high": 0,
+        "hsk_count_low": 4,
+        "top_max": 2.0,
+        "top_mean": 1.25,
+        "top_count_high": 0,
+        "total_words": 4,
+        "oov_ratio": 0.0,
+        "sentence_length": 21,
+        "rare_char_ratio": 0.0,
+        "avg_word_length": 4.5
+      },
+      "hsk_labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "top_labels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "features": {
+        "hsk_max": 3.0,
+        "hsk_mean": 1.4,
+        "hsk_count_high": 0,
+        "hsk_count_low": 4,
+        "top_max": 1.0,
+        "top_mean": 1.0,
+        "top_count_high": 0,
+        "total_words": 6,
+        "oov_ratio": 0.0,
+        "sentence_length": 24,
+        "rare_char_ratio": 0.0,
+        "avg_word_length": 3.5
+      },
+      "hsk_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "top_labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "features": {
+        "hsk_max": 3.0,
+        "hsk_mean": 1.4285715,
+        "hsk_count_high": 0,
+        "hsk_count_low": 6,
+        "top_max": 1.0,
+        "top_mean": 1.0,
+        "top_count_high": 0,
+        "total_words": 7,
+        "oov_ratio": 0.0,
+        "sentence_length": 27,
+        "rare_char_ratio": 0.0,
+        "avg_word_length": 3.0
+      },
+      "hsk_labels": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "top_labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "features": {
+        "hsk_max": 2.0,
+        "hsk_mean": 1.2,
+        "hsk_count_high": 0,
+        "hsk_count_low": 5,
+        "top_max": 2.0,
+        "top_mean": 1.1666666,
+        "top_count_high": 0,
+        "total_words": 6,
+        "oov_ratio": 0.0,
+        "sentence_length": 21,
+        "rare_char_ratio": 0.0,
+        "avg_word_length": 3.0
+      },
+      "hsk_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "top_labels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "features": {
+        "hsk_max": 1.0,
+        "hsk_mean": 1.0,
+        "hsk_count_high": 0,
+        "hsk_count_low": 2,
+        "top_max": 2.0,
+        "top_mean": 1.25,
+        "top_count_high": 0,
+        "total_words": 4,
+        "oov_ratio": 0.0,
+        "sentence_length": 15,
+        "rare_char_ratio": 0.0,
+        "avg_word_length": 3.0
+      },
+      "hsk_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "top_labels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "features": {
+        "hsk_max": 2.0,
+        "hsk_mean": 1.25,
+        "hsk_count_high": 0,
+        "hsk_count_low": 4,
+        "top_max": 2.0,
+        "top_mean": 1.2,
+        "top_count_high": 0,
+        "total_words": 5,
+        "oov_ratio": 0.0,
+        "sentence_length": 24,
+        "rare_char_ratio": 0.0,
+        "avg_word_length": 3.6
+      },
+      "hsk_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "top_labels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "features": {
+        "hsk_max": 1.0,
+        "hsk_mean": 1.0,
+        "hsk_count_high": 0,
+        "hsk_count_low": 2,
+        "top_max": 2.0,
+        "top_mean": 1.25,
+        "top_count_high": 0,
+        "total_words": 4,
+        "oov_ratio": 0.0,
+        "sentence_length": 21,
+        "rare_char_ratio": 0.0,
+        "avg_word_length": 3.0
+      },
+      "hsk_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "top_labels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "features": {
+        "hsk_max": 1.0,
+        "hsk_mean": 1.0,
+        "hsk_count_high": 0,
+        "hsk_count_low": 5,
+        "top_max": 1.0,
+        "top_mean": 1.0,
+        "top_count_high": 0,
+        "total_words": 6,
+        "oov_ratio": 0.0,
+        "sentence_length": 24,
+        "rare_char_ratio": 0.0,
+        "avg_word_length": 3.0
+      },
+      "hsk_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "top_labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "features": {
+        "hsk_max": 2.0,
+        "hsk_mean": 1.4,
+        "hsk_count_high": 0,
+        "hsk_count_low": 5,
+        "top_max": 2.0,
+        "top_mean": 1.1666666,
+        "top_count_high": 0,
+        "total_words": 6,
+        "oov_ratio": 0.0,
+        "sentence_length": 24,
+        "rare_char_ratio": 0.0,
+        "avg_word_length": 3.5
+      },
+      "hsk_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "top_labels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "features": {
+        "hsk_max": 1.0,
+        "hsk_mean": 1.0,
+        "hsk_count_high": 0,
+        "hsk_count_low": 3,
+        "top_max": 3.0,
+        "top_mean": 1.3333334,
+        "top_count_high": 0,
+        "total_words": 6,
+        "oov_ratio": 0.0,
+        "sentence_length": 21,
+        "rare_char_ratio": 0.0,
+        "avg_word_length": 3.0
+      },
+      "hsk_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "top_labels": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "feature_stats": {
+    "hsk_max_mean": 1.7,
+    "hsk_max_std": 0.7810249,
+    "hsk_mean_mean": 1.1678572,
+    "hsk_mean_std": 0.18011457,
+    "hsk_count_high_mean": 0.0,
+    "hsk_count_high_std": 0.0,
+    "hsk_count_low_mean": 4.0,
+    "hsk_count_low_std": 1.2649112,
+    "top_max_mean": 1.8,
+    "top_max_std": 0.6000001,
+    "top_mean_mean": 1.1616666,
+    "top_mean_std": 0.11524162,
+    "top_count_high_mean": 0.0,
+    "top_count_high_std": 0.0,
+    "total_words_mean": 5.4,
+    "total_words_std": 1.0198034,
+    "oov_ratio_mean": 0.0,
+    "oov_ratio_std": 0.0,
+    "sentence_length_mean": 22.2,
+    "sentence_length_std": 3.0594094,
+    "rare_char_ratio_mean": 0.0,
+    "rare_char_ratio_std": 0.0,
+    "avg_word_length_mean": 3.31,
+    "avg_word_length_std": 0.4635731
+  }
+}

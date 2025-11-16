@@ -1,0 +1,14 @@
+# Build artifacts
+/target/
+Cargo.lock
+
+# Large dictionary files (not needed in repo, only for development)
+/dictionaries/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store

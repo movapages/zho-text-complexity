@@ -1,0 +1,67 @@
+[package]
+name = "zho-complexity"
+version = "0.1.0"
+edition = "2021"
+authors = ["OM <om@Mova.Club>"]
+license = "MIT"
+description = "Chinese Text Complexity Analyzer using HSK/TOP vocabularies"
+
+[dependencies]
+# ML Framework (proven settings from cj-llm)
+candle-core = { version = "0.8", features = ["accelerate", "metal"] }
+candle-nn = "0.8"
+candle-optimisers = "0.8"
+
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# CLI & Utilities
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1.0"
+
+# Data Processing
+rustc-hash = "2.0"
+aho-corasick = "1.1"
+
+# Training utilities (for feature extraction)
+rand = "0.8"
+rayon = "1.10"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bin]]
+name = "zho-complexity"
+path = "src/main.rs"
+
+# Training & Data Preparation Utilities (optional)
+[[bin]]
+name = "prepare_training_data"
+path = "src/bin/prepare_training_data.rs"
+required-features = []
+
+[[bin]]
+name = "train"
+path = "src/bin/train.rs"
+required-features = []
+
+[[bin]]
+name = "extract_bkrs_phrases"
+path = "src/bin/extract_bkrs_phrases.rs"
+required-features = []
+
+# Not yet implemented - removed
+# [[bin]]
+# name = "validate_data"
+# path = "src/bin/validate_data.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+
+[profile.dev]
+opt-level = 1
